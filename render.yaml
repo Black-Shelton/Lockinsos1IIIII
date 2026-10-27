@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: noob-experiment-bot
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    autoDeploy: true
